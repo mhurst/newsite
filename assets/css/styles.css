@@ -1,0 +1,65 @@
+/** Main Styles **/
+body, html {
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+}
+
+.top-head {
+	width: 100%;
+	height: 30px;
+	background: #ccc;
+	border-bottom: 3px solid #000;
+}
+
+.title {
+	font-size: 2.4em;
+	padding: 10px 0 10px 10px;
+}
+
+.clear {
+	clear: both;
+}
+
+.me img {
+	width: 100%;
+}
+
+.bottom-boxes header {
+	padding: 18px 0 10px 0;
+	font-size: 1.6em;
+}
+
+.top-nav {
+	float: left;
+}
+
+.top-nav nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.top-nav nav li {
+	display: inline-block;
+	margin: 0;
+}
+
+.top-nav a {
+	padding: 26px 16px 22px 16px;
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+
+.top-nav a:hover {
+	background: #000;
+	color: #fff;
+	border-bottom: 3px solid #ccc;
+}
+
+@media screen and (max-width: 784px) {
+	.me img {
+		display: none;
+	}
+}
